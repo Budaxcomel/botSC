@@ -1,0 +1,11 @@
+[Unit]
+Description=Admin Bot Panel - @adminbot
+After=network.target
+
+[Service]
+WorkingDirectory=/root/
+ExecStart=python3 -m adminbot
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
