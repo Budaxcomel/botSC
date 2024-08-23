@@ -77,12 +77,12 @@ ADMIN="$IDTELE"
 SESSIONS="${UUID}"
 EOF
     systemctl daemon-reload
-    systemctl stop regggg
-    systemctl enable regggg
-    systemctl start regggg
-    systemctl restart regggg
+    systemctl stop regis
+    systemctl enable regis
+    systemctl start regis
+    systemctl restart regis
     clear
-#    systemctl status regggg
+#    systemctl status regis
 }
 main "$@"
 echo " Bot Sukses di Install.."
