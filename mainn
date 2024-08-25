@@ -75,7 +75,7 @@ EOF
     systemctl start adminbot
     systemctl restart adminbot
     clear
-#    systemctl status regggg
+#    systemctl status adminbot
 }
 main "$@"
 echo " Bot Berjaya di Install.."
